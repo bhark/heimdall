@@ -1,0 +1,30 @@
+{
+  "name": "heimdall",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./server",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "sass": "^1.53.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.7",
+    "vite": "^3.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@lucia-sveltekit/adapter-supabase": "^0.3.3",
+    "@supabase/supabase-js": "^1.35.7",
+    "@sveltejs/adapter-node": "^1.0.0-next.96",
+    "express": "^4.18.1",
+    "lucia-sveltekit": "^0.9.1",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2",
+    "svelte-confetti-explosion": "^0.4.0"
+  }
+}

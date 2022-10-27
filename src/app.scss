@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: $space;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgba($black, .05);
+}
+
+.transition-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.transition-container > * {
+    grid-row: 1;
+    grid-column: 1;
+}
